@@ -112,7 +112,7 @@ export const Twitter = ({ onChange, onSwatchHover, hex, colors, width, triangle,
   })
 
   const handleChange = (hexcode, e) => {
-    color.isValidHex(hexcode) && onChange({
+    onChange({
       hex: hexcode,
       source: 'hex',
     }, e)
